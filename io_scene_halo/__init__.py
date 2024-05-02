@@ -38,6 +38,18 @@ bl_info = {
     "support": 'COMMUNITY',
     "category": "Import-Export"}
 
+if "bpy" in locals():
+    import importlib
+    importlib.reload(global_ui)
+    importlib.reload(file_ass)
+    importlib.reload(file_jma)
+    importlib.reload(file_jmi)
+    importlib.reload(file_jms)
+    importlib.reload(file_qua)
+    importlib.reload(file_tag)
+    importlib.reload(file_wrl)
+    importlib.reload(misc)
+
 from . import global_ui
 from . import file_ass
 from . import file_jma
