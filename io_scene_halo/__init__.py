@@ -34,7 +34,7 @@ bl_info = {
     "location": "File > Import-Export",
     "description": "Import-Export Halo intermediate files Build: BUILD_VERSION_STR",
     "warning": "",
-    "wiki_url": "https://c20.reclaimers.net/tools/jointed-model-blender-toolset/",
+    "wiki_url": "https://c20.reclaimers.net/general/community-tools/halo-asset-blender-development-toolset/",
     "support": 'COMMUNITY',
     "category": "Import-Export"}
 
